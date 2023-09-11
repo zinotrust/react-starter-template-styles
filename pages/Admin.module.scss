@@ -1,0 +1,32 @@
+.admin {
+  // width: 100%;
+  display: flex;
+  position: relative;
+
+  .navbar {
+    // width: 25%;
+    min-height: 70vh;
+  }
+  .content {
+    min-height: 70vh;
+    width: 100%;
+    padding: 1rem;
+    background-color: #eee;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navbar {
+    // width: 25%;
+    min-height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .content {
+    // width: 100%;
+    padding: 1rem;
+    margin-left: 60px;
+    background-color: red;
+  }
+}
